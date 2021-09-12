@@ -1,0 +1,45 @@
+.ReactCrop__image
+{
+	width: 100%;
+}
+.cursorPointer{
+	cursor: pointer;
+}
+.diagramContainer{
+	max-height: 140vh;
+	overflow: hidden;
+  }
+.gtc21
+{
+	grid-template-columns: 2fr 1fr !important;
+}
+.btn-change-order
+{
+	position: fixed;
+	bottom: 30px;
+    z-index: 100;
+    right: 35px;
+}
+.workflowParamsLabel{
+	position: absolute;
+	top: -12px;
+	right: -15px;
+	z-index: 2 !important;
+  }
+.workflowNode
+{
+	padding: 1.5rem 0 !important;
+}
+.scrollY
+{
+	height: calc(100vh - (2rem + 4.45rem + 1.3rem + 3rem));
+	overflow-y: scroll;
+}
+.calcVH
+{
+	height: calc(100vh - (2rem + 4.45rem + 1.3rem + 1.5rem));
+}
+.react-draggable > div{
+	min-width: unset !important;
+	min-height: unset !important;
+}
