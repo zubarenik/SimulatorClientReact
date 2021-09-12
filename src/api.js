@@ -2,7 +2,6 @@ import { AuthAction } from './redux/actions'
 import { toast } from 'react-toastify'
 
 const queryString = require('query-string')
-// const DEFAULT_URL = 'https://newapi.mysimulator.ru/api_admin'
 const DEFAULT_URL = 'http://127.0.0.1:8000/api_admin'
 class Api {
 
